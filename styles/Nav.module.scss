@@ -1,0 +1,11 @@
+.btn {
+  @apply cursor-pointer shadow hover:shadow-md outline-none focus:outline-none rounded
+    py-2 px-4 text-center
+    uppercase font-semibold
+    transition ease-out
+    duration-300 hover:bg-slate-200;
+
+  &__text {
+    @apply text-red-500;
+  }
+}
