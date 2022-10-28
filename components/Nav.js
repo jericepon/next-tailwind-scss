@@ -1,10 +1,20 @@
+import Link from "next/link";
+
 const Nav = () => {
   return (
     <header>
       <nav>
-          <ul>
-          <li className="">Home</li>
-          <li>About</li>
+        <ul className="nav">
+          <li>
+            <Link href="/" className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="/about" className="nav-link">
+              About
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

@@ -12,6 +12,16 @@
         // Reveal the output only if unrecognized errors occur.
         "reveal": "silent"
       }
-    }
+    },
+    {
+      "label": "lint 🧹",
+      "type": "npm",
+      "script": "lint",
+      "group": "build",
+      "presentation": {
+        // Reveal the output only if unrecognized errors occur.
+        "reveal": "silent"
+      }
+    },
   ]
 }
