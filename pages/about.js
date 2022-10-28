@@ -6,7 +6,7 @@ export default function about() {
       <Head>
         <title>About</title>
       </Head>
-      <h1>About</h1>
+      <h1 className="text-[30px]">About</h1>
     </>
   );
 }
